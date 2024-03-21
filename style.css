@@ -1,0 +1,505 @@
+#container{
+    border: 100px solid rgb(141,210,207);
+}
+body{
+    font-size: 20px;
+}
+    #navbar{
+    background-color: rgb(1,72,82);
+    display:flex;
+    gap: 13%;
+    color:white;
+    align-items: center;
+    height: 75px;
+    font-size: 20px;
+}
+#logo{
+    display:flex;
+    gap: 5%;
+    margin-left: 2%;
+}
+#links{
+    display: flex;
+    gap:7%;
+    width: 1000px;
+    border: 1px solid  rgb(1,72,82);
+}
+#button{
+    background-color: rgb(70,80,168);
+    color:white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+}
+#section{
+    color: white;
+    background-color: rgb(0,62,71);
+    display: flex;
+    padding-top: 70px;
+    padding-bottom: 50px;
+    position: relative;
+    
+}
+#div{
+     margin-left: 7%;  
+}
+#buttons{
+   display: flex;
+   gap: 20px;
+}
+#guy{
+    margin-bottom: -5%;
+
+}
+.text{
+    font-size: 50px;
+}
+#logo{
+    display: flex;
+}
+#button1{
+    background-color: rgb(66,176,202);
+    color: white;
+    width: 150px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#powerful{
+    color: rgb(254,210,98);
+}
+#input{
+    background-color: rgb(0,62,71) ;
+    color: rgb(66,176,202) ;
+    border: 1px solid  rgb(66,176,202);
+    width: 150px;
+    border-radius: 10px;
+}
+#div1{
+    position: relative;
+}
+#phone{
+    position: relative;
+}
+#img{
+    display: flex;
+}
+#advantage{
+    color: rgb(211,148,88);
+}
+#div2{
+    border: 1px solid white ;
+    text-align: center;
+}
+#div3{
+    text-align: center;
+    border: 1px solid white;
+    width: 400px;
+}
+#div4{
+    display: flex;
+    gap:2%;
+    border: 1px solid white;
+    width: fit-content;
+    margin-left: 15%;
+}
+#section1{
+    display: flex;
+    gap: 7%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#div5{
+    width: 500px;
+    border: 1px solid white;
+    padding-top: 1%;
+}
+#buttonget{
+    width:150px;
+    padding:15px;
+    background-color: rgb(70,80,168);
+    border-radius: 7px;
+    color: white;
+    font-size: 18px;
+}
+#div6{
+    margin-left: 12%;
+}
+#explore{
+    width: 300px;
+    padding: 17px;
+    background-color: rgb(254,201,98);
+    border-radius: 10px;
+    border:rgb(254,201,98);
+}
+.text1{
+    font-size: 30px;
+}
+#section2{
+   background-color: rgb(204,245,255); 
+   padding-top: 40px;
+}
+#div7{
+    text-align: center;
+}
+#view{
+    width: 200px;
+    padding: 1px;
+    background-color: rgb(70,80,168);
+    color: white;
+    border-radius: 10px;
+
+}
+#div8{
+    display:flex;
+    gap:53%;
+}
+.image{
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+#input2{
+    background-color: white ;
+    color: rgb(66,176,202) ;
+    border: 1px solid  rgb(66,176,202);
+    width: 150px;
+    border-radius: 10px;
+    padding: 18px;
+}
+#div9{
+    display: flex;
+    gap: 5%;
+}
+#section3{
+    margin-left: 10%;
+    padding: 40px;
+}
+#Job{
+     width: 200px;
+     color: white;
+     background-color: rgb(63,176,202);
+     padding: 20px;
+     border-radius: 15px;
+     border: 1px solid rgb(63,176,202);
+}
+#div10{
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(0,62,70);
+    text-align: center;
+    color: white;
+}
+#div11{
+    display: flex;
+    gap: 5%;
+    margin-left: 11%;
+    border: 1px solid;
+    align-items: center;
+    width: 1340px;
+    padding-left: 70px;
+    height: 500px;
+    padding-top: 50px;
+    border-radius: 20px;
+    background-color: rgb(0,62,70);
+}
+.girl{
+    margin-top: 23%;
+}
+#footer{
+    background-color:  rgb(0,62,70);
+    padding-top: 100px;
+    color:white;
+    border-top-left-radius:300px ;
+    border-top-right-radius: 100px;
+}
+#logo1{
+    display: flex;
+}
+#your{
+    background-color:  rgb(0,62,70);
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    width: 400px;
+    padding:20px;
+    border-radius: 20px;
+
+}
+#div12{
+    display: flex;
+    gap: 5%;
+}
+#div13{
+    display: flex;
+    gap: 20%;
+}
+#div14{
+    width: 300px;
+}
+#div15{
+    margin-left: 5%;
+}
+#iconfooter{
+    border-radius: 60px;
+    width: 40px;
+    margin-left: 40%;
+}
+#div16{
+    gap: 80%;
+    display:flex;
+
+}
+@media  all  and (min-width: 280px) and (max-width : 1024px) {
+    #container{
+        border: 10px solid rgb(141,210,207);
+    }
+    body{
+        font-size: 10px;
+    }
+        #navbar{
+        background-color: rgb(1,72,82);
+        display:flex;
+        gap: 13%;
+        color:white;
+        align-items: center;
+        height: 75px;
+        font-size: 10px;
+        flex-direction: column;
+    }
+    #logo{
+        display:flex;
+        gap: 5%;
+    }
+    #links{
+        display: flex;
+        gap:7%;
+        width: 100px;
+        border: 1px solid  rgb(1,72,82);
+    }
+    #button{
+        background-color: rgb(70,80,168);
+        color:white;
+        padding: 15px;
+        width: 200px;
+        border-radius: 10px;
+    }
+    #section{
+        color: white;
+        background-color: rgb(0,62,71);
+        display: flex;
+        padding-top: 70px;
+        padding-bottom: 50px;
+        position: relative;
+        
+    }
+    #div{
+         margin-left: 7%;  
+    }
+    #buttons{
+       display: flex;
+       gap: 20px;
+    }
+    #guy{
+        margin-bottom: -5%;
+    
+    }
+    .text{
+        font-size: 20px;
+    }
+    #logo{
+        display: flex;
+    }
+    #button1{
+        background-color: rgb(66,176,202);
+        color: white;
+        width: 150px;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    #powerful{
+        color: rgb(254,210,98);
+    }
+    #input{
+        background-color: rgb(0,62,71) ;
+        color: rgb(66,176,202) ;
+        border: 1px solid  rgb(66,176,202);
+        width: 150px;
+        border-radius: 10px;
+    }
+    #div1{
+        position: relative;
+    }
+    #phone{
+        position: relative;
+    }
+    #img{
+        display: flex;
+    }
+    #advantage{
+        color: rgb(211,148,88);
+    }
+    #div2{
+        border: 1px solid white ;
+        text-align: center;
+    }
+    #div3{
+        text-align: center;
+        border: 1px solid white;
+        width: 400px;
+    }
+    #div4{
+        display: flex;
+        gap:2%;
+        border: 1px solid white;
+        width: fit-content;
+        margin-left: 15%;
+    }
+    #section1{
+        display: flex;
+        gap: 7%;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #div5{
+        width: 500px;
+        border: 1px solid white;
+        padding-top: 1%;
+    }
+    #buttonget{
+        width:150px;
+        padding:15px;
+        background-color: rgb(70,80,168);
+        border-radius: 7px;
+        color: white;
+        font-size: 18px;
+    }
+    #div6{
+        margin-left: 12%;
+    }
+    #explore{
+        width: 300px;
+        padding: 17px;
+        background-color: rgb(254,201,98);
+        border-radius: 10px;
+        border:rgb(254,201,98);
+    }
+    .text1{
+        font-size: 30px;
+    }
+    #section2{
+       background-color: rgb(204,245,255); 
+       padding-top: 40px;
+    }
+    #div7{
+        text-align: center;
+    }
+    #view{
+        width: 200px;
+        padding: 1px;
+        background-color: rgb(70,80,168);
+        color: white;
+        border-radius: 10px;
+    
+    }
+    #div8{
+        display:flex;
+        gap:53%;
+    }
+    .image{
+        width: 400px;
+        height: 300px;
+        border-radius: 20px;
+    }
+    #input2{
+        background-color: white ;
+        color: rgb(66,176,202) ;
+        border: 1px solid  rgb(66,176,202);
+        width: 150px;
+        border-radius: 10px;
+        padding: 18px;
+    }
+    #div9{
+        display: flex;
+        gap: 5%;
+    }
+    #section3{
+        margin-left: 10%;
+        padding: 40px;
+    }
+    #Job{
+         width: 200px;
+         color: white;
+         background-color: rgb(63,176,202);
+         padding: 20px;
+         border-radius: 15px;
+         border: 1px solid rgb(63,176,202);
+    }
+    #div10{
+        width: 500px;
+        height: 400px;
+        border: 1px solid rgb(0,62,70);
+        text-align: center;
+        color: white;
+    }
+    #div11{
+        display: flex;
+        gap: 5%;
+        margin-left: 11%;
+        border: 1px solid;
+        align-items: center;
+        width: 1340px;
+        padding-left: 70px;
+        height: 500px;
+        padding-top: 50px;
+        border-radius: 20px;
+        background-color: rgb(0,62,70);
+    }
+    .girl{
+        margin-top: 23%;
+    }
+    #footer{
+        background-color:  rgb(0,62,70);
+        padding-top: 100px;
+        color:white;
+        border-top-left-radius:300px ;
+        border-top-right-radius: 100px;
+    }
+    #logo1{
+        display: flex;
+    }
+    #your{
+        background-color:  rgb(0,62,70);
+        color: white;
+        border: 1px solid white;
+        font-size: 20px;
+        width: 400px;
+        padding:20px;
+        border-radius: 20px;
+    
+    }
+    #div12{
+        display: flex;
+        gap: 5%;
+    }
+    #div13{
+        display: flex;
+        gap: 20%;
+    }
+    #div14{
+        width: 300px;
+    }
+    #div15{
+        margin-left: 5%;
+    }
+    #iconfooter{
+        border-radius: 60px;
+        width: 40px;
+        margin-left: 40%;
+    }
+    #div16{
+        gap: 80%;
+        display:flex;
+    
+    }
+
+}
