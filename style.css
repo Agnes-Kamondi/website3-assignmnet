@@ -249,9 +249,9 @@ body{
     display:flex;
 
 }
-@media  all  and (min-width: 280px) and (max-width : 1024px) {
+@media only screen  and (min-width: 320px) and (max-width : 480px) {
     #container{
-        border: 10px solid rgb(141,210,207);
+        border: 5px solid rgb(141,210,207);
     }
     body{
         font-size: 10px;
@@ -262,18 +262,19 @@ body{
         gap: 13%;
         color:white;
         align-items: center;
-        height: 75px;
+        height: 70px;
         font-size: 10px;
         flex-direction: column;
     }
     #logo{
         display:flex;
-        gap: 5%;
+        gap: 1%;
+        margin-left: 2%;
     }
     #links{
         display: flex;
-        gap:7%;
-        width: 100px;
+        gap:2%;
+        width: 200px;
         border: 1px solid  rgb(1,72,82);
     }
     #button{
@@ -290,10 +291,12 @@ body{
         padding-top: 70px;
         padding-bottom: 50px;
         position: relative;
+        flex-direction: column;
         
     }
     #div{
-         margin-left: 7%;  
+         margin-left: 7%; 
+
     }
     #buttons{
        display: flex;
@@ -301,19 +304,29 @@ body{
     }
     #guy{
         margin-bottom: -5%;
+        width: 200px;
+        height: 300px;
     
     }
+    #phone{
+        width: 150px;
+        height: 300px;
+    }
     .text{
-        font-size: 20px;
+        font-size: 10px;
     }
     #logo{
         display: flex;
     }
+    #logopng2{
+        width :20px;
+        height: 20px;
+    }
     #button1{
         background-color: rgb(66,176,202);
         color: white;
-        width: 150px;
-        padding: 20px;
+        width: 70px;
+        padding: 5px;
         border-radius: 10px;
     }
     #powerful{
@@ -323,14 +336,8 @@ body{
         background-color: rgb(0,62,71) ;
         color: rgb(66,176,202) ;
         border: 1px solid  rgb(66,176,202);
-        width: 150px;
+        width: 70px;
         border-radius: 10px;
-    }
-    #div1{
-        position: relative;
-    }
-    #phone{
-        position: relative;
     }
     #img{
         display: flex;
@@ -342,46 +349,55 @@ body{
         border: 1px solid white ;
         text-align: center;
     }
+    .png{
+        width: 40px;
+    }
     #div3{
         text-align: center;
         border: 1px solid white;
-        width: 400px;
+        width: 100px;
     }
     #div4{
         display: flex;
-        gap:2%;
-        border: 1px solid white;
-        width: fit-content;
-        margin-left: 15%;
+        gap: 5%;
+
     }
     #section1{
         display: flex;
-        gap: 7%;
-        padding-top: 100px;
-        padding-bottom: 50px;
+        gap: 5%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .phone2{
+        width: 150px;
+        height: 500px;
     }
     #div5{
         width: 500px;
         border: 1px solid white;
         padding-top: 1%;
     }
+    .tick{
+        width: 30px;
+    }
     #buttonget{
-        width:150px;
-        padding:15px;
+        width:70px;
+        padding:7px;
         background-color: rgb(70,80,168);
         border-radius: 7px;
         color: white;
-        font-size: 18px;
+        font-size: 10px;
     }
     #div6{
         margin-left: 12%;
     }
     #explore{
-        width: 300px;
-        padding: 17px;
+        width: 200px;
+        padding: 7px;
         background-color: rgb(254,201,98);
         border-radius: 10px;
         border:rgb(254,201,98);
+        font-size: 10px;
     }
     .text1{
         font-size: 30px;
@@ -393,76 +409,89 @@ body{
     #div7{
         text-align: center;
     }
+    #tablet{
+        width: 300px;
+        height: 200px;
+    }
     #view{
-        width: 200px;
+        width: 80px;
         padding: 1px;
         background-color: rgb(70,80,168);
         color: white;
         border-radius: 10px;
+        font-size: 10px;
     
     }
     #div8{
         display:flex;
-        gap:53%;
+        gap:50%;
+        margin-left: -20%;
     }
     .image{
-        width: 400px;
-        height: 300px;
+        width: 100px;
+        height: 100px;
         border-radius: 20px;
     }
     #input2{
         background-color: white ;
         color: rgb(66,176,202) ;
         border: 1px solid  rgb(66,176,202);
-        width: 150px;
+        width: 70px;
         border-radius: 10px;
-        padding: 18px;
+        padding: 7px;
     }
     #div9{
         display: flex;
         gap: 5%;
+        margin-left: -22%;
+    }
+    #div17{
+        width: 100px;
     }
     #section3{
-        margin-left: 10%;
-        padding: 40px;
+        width: 300px;
+        border: 1px solid white;
     }
     #Job{
-         width: 200px;
+         width: 100px;
          color: white;
          background-color: rgb(63,176,202);
-         padding: 20px;
-         border-radius: 15px;
+         padding: 7px;
+         border-radius: 10px;
+         font-size: 10px;
          border: 1px solid rgb(63,176,202);
     }
     #div10{
-        width: 500px;
-        height: 400px;
+        width: 70px;
+        height: 100px;
         border: 1px solid rgb(0,62,70);
         text-align: center;
         color: white;
     }
     #div11{
         display: flex;
-        gap: 5%;
-        margin-left: 11%;
+        gap: 1%;
+        margin-left: 3%;
         border: 1px solid;
         align-items: center;
-        width: 1340px;
-        padding-left: 70px;
-        height: 500px;
-        padding-top: 50px;
+        width: 290px;
+        padding-left: 50px;
+        height: 200px;
+        padding-top: 20px;
         border-radius: 20px;
         background-color: rgb(0,62,70);
     }
     .girl{
         margin-top: 23%;
+        width: 70px;
+        height: 100px;
     }
     #footer{
         background-color:  rgb(0,62,70);
         padding-top: 100px;
         color:white;
-        border-top-left-radius:300px ;
-        border-top-right-radius: 100px;
+        border-top-left-radius:50px ;
+        border-top-right-radius: 20px;
     }
     #logo1{
         display: flex;
@@ -471,35 +500,33 @@ body{
         background-color:  rgb(0,62,70);
         color: white;
         border: 1px solid white;
-        font-size: 20px;
-        width: 400px;
-        padding:20px;
-        border-radius: 20px;
+        font-size: 10px;
+        width: 70px;
+        padding:5px;
+        border-radius: 10px;
     
     }
     #div12{
         display: flex;
-        gap: 5%;
     }
     #div13{
         display: flex;
-        gap: 20%;
+        gap: 10%;
     }
     #div14{
-        width: 300px;
+        width: 90px;
     }
     #div15{
-        margin-left: 5%;
+        margin-left: 1%;
     }
     #iconfooter{
         border-radius: 60px;
-        width: 40px;
+        width: 10px;
         margin-left: 40%;
     }
     #div16{
-        gap: 80%;
+        gap: 60%;
         display:flex;
     
-    }
-
+    }  
 }
